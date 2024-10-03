@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia</title>
+</head>
+<body>
+  
+  <header>
+
+  </header>
+
+  <main>
+
+    <section id="imagenes">
+      <h3>Imagen img</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg/330px-Sir_Tim_Berners-Lee_%28cropped%29.jpg" alt="Tim Berners Lee el padre de la web">
+      <h3>VR 46</h3>
+      <img src="img/ducati.jpg" alt="motovehículo ducati de carrera">
+      
+      <h3>Etiqueta Picture</h3>
+      <picture>
+        <source media="(min-width: 650px)" srcset="img/paper_mario.png">
+        <source media="(min-width: 465px)" srcset="img/mario_leaf_grande.png">
+        <img src="img/mario_peque.png" style="width: auto;" alt="Imágen de Super Mario">
+      </picture> 
+
+      <h3>Formatos de imágenes</h3>
+
+      <h4>Logo svg</h4>
+      <img src="img/logo.svg" alt="logo de moto gp">
+
+      <h4>Mario.jpg</h4>
+      <img src="img/mario3.jpg" alt="imágen de mario bros">
+    </section>
+
+    <section id="audio">
+      <h3>Audio</h3>
+      <audio preload="" controls autoplay>
+        <source src="media/Vivaldi-Winter.mp3" type="audio/mpeg">
+        El navegador no soporta la etiqueta "audio".
+      </audio>
+    </section>
+
+    <section id="videos">
+      <h3>Video</h3>
+      <video width="320" height="240" poster="img/389px-Vivaldi.jpg" preload="none" controls>
+        <source src="media/vivaldi.mp4" type="video/mp4">
+        <track src="media/subs-es.vtt" srclang="es" label="Español" default>
+        <track src="media/subs-en.vtt" srclang="en" label="English">
+        El navegador no soporta la etiqueta "video".
+      </video>
+    </section>
+
+    <section>
+      <h3>Google Maps</h3>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.6644263989865!2d-58.45926762480159!3d-34.56205095529793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5d3849d6dbb%3A0x34a17e7f13a06d16!2sAv.%20Cabildo%20%26%20Av.%20Juramento%2C%20C1428%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1727664836577!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section>
+      <h3>YouTube</h3>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/8n1L6XTFHKs?si=sImo5ph9ivEfhGMy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section>
+      <h3>Rick And Morty</h3>
+      <iframe src="rick.html" frameborder="0"></iframe>
+    </section>
+
+    <section>
+      <h3>Tablas</h3>
+
+      <table>
+        <tr>
+          <th>Mes</th>
+          <th>Ahorros</th>
+        </tr>
+        <tr>
+          <td>Enero</td>
+          <td>$10000</td>
+        </tr>
+        <tr>
+          <td>Febrero</td>
+          <td>$15000</td>
+        </tr>
+      </table> 
+
+    </section>
+
+  </main>
+
+  <footer>
+
+  </footer>
+
+</body>
+</html>
